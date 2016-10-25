@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fondoPantalla"
+    android:padding="10px">
+
+    <TableRow>
+        <TextView
+            android:text="@string/camara1"/>
+        <Switch
+            android:id="@+id/swCamara1"
+            android:checked="true"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/luz1"/>
+        <Switch
+            android:id="@+id/swLuz1"
+            android:checked="true"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/camara2"/>
+        <ToggleButton
+            android:id="@+id/togCamara2"
+            android:textOn="@string/si"
+            android:textOff="@string/no"
+            android:checked="true"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/luz2"/>
+        <ToggleButton
+            android:id="@+id/togLuz2"
+            android:textOn="@string/si"
+            android:textOff="@string/no"
+            android:checked="true"/>
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgCamara1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/camara"/>
+        <ImageView
+            android:id="@+id/imgLuz1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/encendida"/>
+        <ImageView
+            android:id="@+id/imgCamara2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/camara"/>
+        <ImageView
+            android:id="@+id/imgLuz2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/encendida"/>
+
+    </LinearLayout>
+</TableLayout>

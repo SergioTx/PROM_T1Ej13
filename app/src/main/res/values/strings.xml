@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ejercicio13</string>
+    <string name="bien">BIEN</string>
+    <string name="mal">MAL</string>
+    <string name="si">SÍ</string>
+    <string name="no">NO</string>
+    <string name="suma">La suma es:</string>
+    <string name="resultado">Resultado:</string>
+    <string name="encender">ENCENDER</string>
+    <string name="apagar">APAGAR</string>
+    <string name="introduceDni">Introduce un DNI:</string>
+    <string name="numDni">Número DNI</string>
+    <string name="letraDni">Letra</string>
+    <string name="validarDni">VALIDAR DNI</string>
+    <string name="camara1">Cámara 1:</string>
+    <string name="camara2">Cámara 2:</string>
+    <string name="luz1">Luz 1:</string>
+    <string name="luz2">Luz 2:</string>
+</resources>
